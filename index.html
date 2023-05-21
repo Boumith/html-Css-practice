@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym site</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ysabeau:wght@1&display=swap" rel="stylesheet">
+    <style>
+        body{
+            background-image:url(man-1868632_1920.jpg);
+            
+            color: white;
+            font-family: 'Ysabeau', sans-serif;
+
+        }
+
+        .left{
+            /*border: 1px solid red;*/
+            display: inline-block;
+            position:absolute;
+            top: 30px;
+            left: 35px;
+            
+
+        }
+
+        .image{
+            width: 60px;
+            height: 60px;
+        }
+
+        .image:hover{
+            cursor: pointer;
+        }
+        
+        .imgtxt{
+            text-align: center;
+            font-size:small;
+            font-weight: bold;
+        }
+
+        .center{
+          /*  border: 1px solid green;  */
+            display: inline-block;
+            position:absolute;
+            left: 27%;
+            top: 30px;
+            width: 45%;
+            font-weight: bold;
+            
+        }
+
+        .navbar li .active{
+            color:chartreuse
+        }
+
+        .navbar li{ 
+            display: inline;
+            font-size: 22px;
+            
+
+        }
+
+        .navbar li a{
+            text-decoration: none;
+            color: white;
+            padding: 10px;
+            
+        }
+
+        .navbar li a:hover{
+            color:chartreuse
+            
+        }
+
+        .right{
+          /*  border: 1px solid violet;   */
+            display: inline-block;
+            position:absolute;
+            right: 35px;
+            top: 50px;
+        }
+
+
+
+        .btn{
+            margin: 0px 12px;
+            font-family:Verdana, Geneva, Tahoma, sans-serif;
+            background-color:black;
+            color: white;
+            padding: 5px 15px;
+            border: 2px;
+            border-radius: 4px;
+        }
+
+        .btn:hover{
+            background-color:gray;
+            cursor: pointer;
+        }
+       
+        .container{
+            margin-top: 12%;
+          /*  border: 1px solid greenyellow;  */
+            padding: 20px 130px;
+            margin-right: 55%;
+            
+        }
+
+        .frm{
+            padding:10px;
+            
+        }
+
+        .frm input{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-align: center;
+            width: 300px;
+            border: 1px solid black;
+            border-radius: 4px;
+            font-size: 17px;
+            
+        }
+
+        .container h1{
+            margin-left: 90px;
+        }
+
+        .container form button{
+            text-align: center;
+            margin-left: 100px;
+            width: 120px;
+            padding: 10px;
+            margin-top: 7px;
+        }
+        
+       
+        
+    </style>
+</head>
+<body>
+    <header>
+        <div class="left">
+            <img src="fitness-7750665_1280.png" class="image">
+            <div class="imgtxt"> GYM SITE </div>
+
+        </div>
+
+        <div class="center">
+            <ul class="navbar">
+                <li> <a href="#" class="active"> Home </a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Package</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+
+        </div>
+
+        <div class="right">
+           <button class="btn"><a href="#"></a>Sign In</button>
+           <button class="btn"><a href="#"></a>Login In</button>
+                    
+        </div>
+    </header>
+
+    <div class="container">
+        <h1> Join Now!!!</h1>
+        <form action="abc.php">
+
+            <div class="frm">
+                <input type="text" name="" placeholder="Enter your Name"> 
+            </div>
+
+            <div class="frm">
+                <input type="text" name="" placeholder="Enter your Email"> 
+            </div>
+
+            <div class="frm">
+                <input type="text" name="" placeholder="Enter your Age"> 
+            </div>
+
+            <div class="frm">
+                <input type="text" name="" placeholder="Enter your Gender"> 
+            </div>
+
+            <div class="frm">
+                <input type="text" name="" placeholder="Enter your Contact number"> 
+            </div>
+
+            <button class="btn"><a href="#"></a> Submit</button>
+
+        </form>
+    </div>
+
+   
+    
+      
+</body>
+</html>
